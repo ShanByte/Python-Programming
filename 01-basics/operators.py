@@ -1,0 +1,10 @@
+a=int(input("Enter Number: "))
+b=int(input("Enter Number: "))
+
+print("Addition: ",a + b)
+print("Subtraction: ",a - b)
+print("Multiplication: ",a * b)
+print("Division: ",a / b)
+print("Modulus: ",a % b)
+print("Greater than: ",a > b)
+print("Equal: ",a == b)
