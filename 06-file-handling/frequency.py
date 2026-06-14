@@ -1,0 +1,12 @@
+file = input("Enter the file name: ")
+word = input("Enter the word to find frequency: ")
+with open(file , "r") as f:
+  data = f.read()
+  character = len(data)
+  words = data.split()
+  lines =data.splitlines()
+  frequency = words.count(word)
+  print("Total number of characters: ",character)
+  print("Total number of words: ",len(words))
+  print("Total number of lines: ",len(lines))
+  print("Frequency : ",frequency)
